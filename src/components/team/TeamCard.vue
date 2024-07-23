@@ -1,11 +1,14 @@
 <template>
-    <div data-aos="fade-left" data-aos-delay="100" class="lg:w-1/2 flex flex-col md:flex-row px-3 mb-12">
-        <img class="h-64 w-64 rounded object-cover" :src="image" alt="">
-        <div class="pt-6 md:pt-2 md:pl-6">
-            <p class="text-xl font-bold">{{ name }}</p>
-            <p class="my-2 text-primary">{{ title }}</p>
-            <p class="leading-loose text-blueGray-600">{{ bio }}</p>
+    <div data-aos="fade-left" data-aos-delay="100" class="w-full md:w-1/2 lg:w-1/4 p-3">
+      <div class="relative max-w-max mx-auto h-full overflow-hidden rounded-3xl">
+        <img class="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000" :src="image" alt="">
+        <div class="absolute bottom-0 left-0 w-full p-2">
+          <div class="bg-black bg-opacity-80 w-full py-4 px-5 rounded-lg" style="backdrop-filter: blur(3px);">
+            <h3 class="mb-1 text-lg text-white font-bold leading-snug">{{ name }}</h3>
+            <p class="text-gray-400 font-medium">{{ title }}</p>
+          </div>
         </div>
+      </div>
     </div>
 </template>
 

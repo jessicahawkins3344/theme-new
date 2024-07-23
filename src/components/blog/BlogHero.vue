@@ -1,32 +1,23 @@
 <template>
-  <section class="relative pb-8 bg-top bg-cover bg-no-repeat " style="background-image: url('https://s3.us-central-1.wasabisys.com/house-jet/assets/JHawkins/base-img-ca3.png'); background-attachment: fixed;">
-      <div class="overlay "></div>
-      <div class="container px-8 lg:px-12 mx-auto">
-        <Header :mode="mode" />
-        <div class="py-12 text-center pt-24">
-          <div class="max-w-xxl mx-auto mb-8">
-            <span data-aos="fade-up" data-aos-delay="0" class="inline-block py-1 px-3 text-xs font-semibold bg-gray-50 text-primary rounded-xl">Our Team</span>
-            <h1 data-aos="fade-up" data-aos-delay="200" class="leading-snug mt-4 text-3xl md:text-5xl mb-4 text-white font-bold font-heading">
-              <span>Local Real Estate & Market News In&nbsp;</span>
-              <span class="text-primary">Spkljdlkfjlskringfield,MO</span>
-            </h1>
-          </div>
+  <section
+      class="h-screen overflow-hidden bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat"
+    >
+      <div class="h-screen  bg-black/50 relative py-24 lg:py-28 lg:pb-36 overflow-hidden content-center">
+        <div class="container px-8 mx-auto text-center">
+            <span class="inline-block sub center text-white mb-4" data-aos="fade-up" data-aos-delay="200">The Blog</span>
+            <h2 class="mb-4 text-6xl md:text-12xl font-bold tracking-px-n leading-tight font-sans text-white" data-aos="fade-up" data-aos-delay="400">Latest Local Real Estate Reads</h2>
+    
+            <p class="hidden max-w-lg text-white/90 md:mt-6 md:text-lg md:leading-relaxed text-center md:block mx-auto" data-aos="fade-up" data-aos-delay="600">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore officia corporis quasi
+            doloribus iure architecto quae voluptatum beatae excepturi dolores.
+            </p>
+    
         </div>
       </div>
-  </section>
+    </section>
 </template>
 
 <script setup>
-import Header from '@/views/Header.vue';
-
-import { defineProps } from 'vue';
-
-const props = defineProps({
-  mode: {
-    type: String,
-    required: true,
-  },
-});
 
 </script>
 

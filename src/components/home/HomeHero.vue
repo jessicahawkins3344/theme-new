@@ -1,31 +1,27 @@
 <template>
-    <section class="relative">
-        <div class="bg-top bg-cover bg-no-repeat" style="background-image: url('https://s3.us-central-1.wasabisys.com/house-jet/assets/images/hero-bg@2x.png'); background-attachment: fixed;">
-            <div class="overlay "></div>
-            <div class="container px-8 lg:px-12 mx-auto md:pb-20 ">
-                <Header :mode="mode" class="z-50"/>
-                <div class="py-12 text-center pt-48 relative">
-                    <div class="mx-auto mb-8 aos-init aos-animate max-w-xxl z-30">
-                        <span data-aos="fade-up" data-aos-delay="0" class="z-30 text-xs py-1 px-3 text-primary font-semibold bg-blue-50 rounded-xl">Local Market Expert</span>
-                        <h2 data-aos="fade-up" class="leading-snug mb-4 text-white font-bold font-heading mt-4 text-4xl md:text-5xl lg:text-6xl">
-                            <span>Top Real Estate Team In </span>
-                            <br>
-                            <span class="text-primary">Springfield, MO</span>
-                        </h2>
-                        <p data-aos="fade-up" data-aos-delay="400" class="leading-relaxed text-white">Contact Our Experienced Team of Real Estate Agents When You're Ready to Buy or Sell in Your Local Market.</p>
-                    </div>
-                    <div data-aos="fade-up" data-aos-delay="600" class="flex flex-wrap max-w-lg mx-auto aos-init">
-                        <div class="flex w-full md:w-2/3 mb-3 md:mb-0 md:mr-2">
-                                <div class="relative"><v-icon name="bi-search" scale="1.2" class="flex ml-4 absolute top-0 bottom-0 text-white my-auto inline-block transition ease-in-out "/>
-                                </div>
-                                <input class="w-full rounded py-4 pl-12 text-xs text-blueGray-600 bg-transparent outline-none transition-all ease-in-out
-                                ring-2 ring-white ring-inset focus:ring-2 focus:ring-primary focus:ring-inset" type="text" placeholder="Search by Zip, City or County">
-                            </div>
-                        <button class="wow slideInUp w-full md:w-auto py-4 px-8 text-xs text-primary hover:text-white font-semibold leading-none border hover:border-primary bg-white hover:bg-primary rounded transition duration-300 ease-in-out" type="submit">Find Homes</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="relative pt-24 md:pb-28 lg:pb-0 overflow-hidden bg-zinc-800">    
+        <div class="relative z-10 container mx-auto px-8">    
+          <div class="flex flex-wrap items-center -m-8">      
+            <div class="w-full md:w-1/2 p-8">        
+              <div class="md:max-w-lg">
+                <span class="inline-block sub text-white mb-4" data-aos="fade-up" data-aos-delay="600">Springfield's Expert Agent</span>         
+                <h1 class="mb-6 text-10xl text-white tracking-px-n leading-tight md:text-13xl font-sans font-semibold" data-aos="fade-up" data-aos-delay="800">Mike Oddo</h1>          
+                <p class="mb-8 text-white text-opacity-70 font-medium md:max-w-md" data-aos="fade-up" data-aos-delay="1000">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.</p>          
+                <div class="mb-16 p-1.5 xl:pl-7 inline-block md:max-w-xl w-full border-2 border-white rounded-3xl focus-within:border-indigo-700 transition-all ease-in-out">            
+                  <div class="flex flex-wrap items-center">              <div class="w-full xl:flex-1">                
+                    <input class="p-3 xl:p-0 xl:pr-7 w-full text-gray-600 outline-none bg-transparent placeholder-white" id="headerInput3-1" type="text" placeholder="Enter email to get started">              </div>              <div class="w-full xl:w-auto">                <div class="block">                  
+                      <button class="py-4 px-7 w-full font-semibold rounded-xl focus:ring focus:ring-indigo-300 hover:bg-zinc-300 transition ease-in-out duration-200 bg-white text-slate-800" type="button">Search</button>                
+                    </div>              
+                  </div>            
+                </div>          
+              </div>        
+            </div>      
+          </div>      
+          <div class="w-full md:w-1/2 pt-0 md:p-8">        
+            <img class="mx-auto mt-8" src="../../assets/images/mike-no-bg-small.png" alt="">      
+          </div>    
+        </div>  
+      </div>
     </section>
 </template>
 <script setup>

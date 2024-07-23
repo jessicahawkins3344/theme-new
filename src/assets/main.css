@@ -14,3 +14,82 @@ a, button {
 --color-primary: #2563eb;
 }
 
+.sub {
+  position: relative;
+  letter-spacing: 0.275em;
+  text-transform: uppercase;
+  padding-left: 77px;
+}
+
+.sub::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 62px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.sub.center {
+  padding-right: 73px;
+}
+
+.sub.center::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 0;
+  width: 62px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.sub-dark {
+  position: relative;
+  letter-spacing: 0.275em;
+  text-transform: uppercase;
+  padding-left: 77px;
+}
+
+.sub-dark.center {
+  padding-right: 73px;
+}
+
+.sub-dark::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 62px;
+  height: 1px;
+  background-color: #27272a;
+}
+
+.sub-dark.center::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 0;
+  width: 62px;
+  height: 1px;
+  background-color: #27272a;
+}
+
+.sub-dark-right {
+  position: relative;
+  letter-spacing: 0.275em;
+  text-transform: uppercase;
+  padding-right: 77px;
+}
+
+.sub-dark-right::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 0;
+  width: 62px;
+  height: 1px;
+  background-color: #27272a;
+}
+

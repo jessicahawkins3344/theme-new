@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex justify-between items-center py-6">
+    <nav class="flex justify-between items-center py-5">
         <a class="z-30 text-3xl text-white font-semibold leading-none" href="/">
             <img class="h-10 transition-opacity ease-in-out hover:opacity-50" src="../assets/images/metis-light-name.svg" alt="" width="auto">
         </a>
@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-    import LoginPopup from '@/components/LoginPopup.vue';
+    import LoginPopup from '@/components/forms/LoginPopup.vue';
     import { ref } from 'vue';
     import DesktopNav from '@/components/DesktopNav.vue';
     import MobileNav from '@/components/MobileNav.vue';

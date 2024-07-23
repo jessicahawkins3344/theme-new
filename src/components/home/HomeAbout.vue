@@ -1,27 +1,22 @@
 <template>
-    <section class="relative pt-0 border-b-2">
-        <div class="hidden lg:block absolute inset-0 w-1/2 ml-auto bg-gray-50 z-0" style="z-index: -1"></div>
-        <div class="container px-8 lg:px-12 mx-auto">
-            <div class="flex flex-wrap items-center -mx-3 mt-24">
-                <div class="w-full lg:w-1/2 px-3">
-                    <div class="py-12">
-                        <div class="max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left">
-                            <span data-aos="fade-right" data-aos-delay="0" class="text-xs py-1 px-3 text-primary font-semibold bg-gray-50 rounded-xl">Meet Mike</span>
-                            <h2 data-aos="fade-right" data-aos-delay="200" class="text-3xl md:text-4xl mb-4 font-bold font-heading mt-4">
-                                <span>Why&nbsp;</span>
-                                <span class="text-primary">Work With Us.</span>
-                            </h2>
-                            <p data-aos="fade-right" data-aos-delay="400" class="text-blueGray-600 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi.</p>
-                        </div>
-                        <div data-aos="fade-right" data-aos-delay="600" class="text-center lg:text-left">
-                            <a class="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-primary hover:brightness-120 rounded" href="#">Learn More</a>
-                            <a class="block sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-500 hover:border-blueGray-300 rounded" href="#">Contact</a>
-                        </div>
-                    </div>
+    <section class="bg-zinc-800 overflow-hidden">
+        <div class="flex flex-wrap -m-8 lg:-m-14">
+            <div class="w-full md:w-5/12 p-8 lg:p-14">
+                <div class="h-full overflow-hidden">
+                    <img class="w-full h-full object-cover transform hover:scale-105 transition duration-500" src="https://images.unsplash.com/photo-1647580425896-dd46f76331e1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHw2MXx8YWdlbnR8ZW58MHwxfHx8MTcxODczMzE0MXww&ixlib=rb-4.0.3&q=85&w=1920" alt="">
                 </div>
-                <div data-aos="fade-left" data-aos-delay="200" class="w-full lg:w-1/2 px-3 lg:bg-blueGray-50 lg:mb-0 md:mb-0 sm:mb-0">
-                    <div class="flex items-center justify-center">
-                        <img class="lg:max-w-lg pt-10 md:max-w-md" src="../../assets/images/mike-no-bg-small.png" alt="">
+            </div>
+            <div class="flex-1 md:w-1/2 p-16 px-8 lg:p-14">
+                <div class="flex flex-col justify-center md:h-screen">
+                    <div class="md:max-w-xl pb-16 py-0 md:py-16 px-8">
+                        <span class="inline-block sub text-white mb-4">About Me</span>
+                        <h2 class="mb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans text-white">Who Is Mike Oddo?</h2>
+                        <p class="mb-20 text-gray-300 tracking-tight text-lg">He has an extensive client base featuring those who seek the luxury lifestyle including titans of industry, celebrities, the royal families, major lending institutions and foreign investors. As a prominent figure in the luxury real estate market, Aaron has received International acclaim for record setting sales across Los Angeles and Southern California.</p>
+                        <div class="flex -m-1.5 mb-5 flex-grow">
+                            <div class="p-1.5 w-full">
+                                <a class="inline-block px-5 py-4 text-zinc-800 font-semibold tracking-tight bg-white hover:bg-zinc-300 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200" href="#">My Story</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -33,4 +28,20 @@ import SocialIcons from '../elements/SocialIcons.vue';
 </script>
 <style scoped>
 
+.sub {
+    position: relative;
+    letter-spacing: 0.275em;
+    text-transform: uppercase;
+    padding-left: 77px;
+}
+
+.sub::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 62px;
+    height: 1px;
+    background-color: #fff;
+}
 </style>

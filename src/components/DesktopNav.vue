@@ -1,5 +1,5 @@
 <template>
-    <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
+    <ul class="hidden lg:flex lg:items-center lg:space-x-12 z-30">
       <li v-for="item in navigationItems" :key="item.name" class="relative">
         <a :class="modeClass" :href="item.href"
            @mouseenter="openSubMenu(item.name)">

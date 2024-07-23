@@ -1,17 +1,22 @@
 <template>
-    <section class="py-20 px-4">
+    <section class="py-20 px-4 border-b-2">
         <div class="container px-8 lg:px-12 mx-auto">
-            <h2 data-aos="fade-down" data-aos-delay="400" v-if="isSingle" class="text-2xl lg:text-3xl mb-8 font-bold font-heading">More Articles</h2>
-            <div class="flex flex-wrap -mx-3">
-                <BlogCard
-                    v-for="(blog, index) in blogs"
-                    :key="index"
-                    :image="blog.image"
-                    :category="blog.category"
-                    :date="blog.date"
-                    :title="blog.title"
-                    :excerpt="blog.excerpt"
-                />
+            <h2 data-aos="fade-down" data-aos-delay="400" v-if="isSingle" class="text-2xl lg:text-3xl mb-18 font-bold font-heading">More Articles</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-8">
+              <div class="md:col-span-2 ...">
+                <div class="flex flex-wrap lg:pl-4">
+                    <BlogCard
+                        v-for="(blog, index) in blogs"
+                        :key="index"
+                        :image="blog.image"
+                        :category="blog.category"
+                        :date="blog.date"
+                        :title="blog.title"
+                        :excerpt="blog.excerpt"
+                    />
+                </div>
+              </div>
+              <div class="..."><HomeValueCard /></div>
             </div>
             <div class="text-center">
                 <a v-if="isSingle" class="inline-block py-4 px-8 text-xs text-white font-semibold leading-none bg-primary hover:brightness-120  rounded" href="#">Show all posts</a>
@@ -22,6 +27,7 @@
 </template>
 <script>
 import BlogCard from './BlogCard.vue';
+import HomeValueCard from '../elements/HomeValueCard.vue';
 
 export default {
   name: 'BlogArchive',
@@ -32,7 +38,8 @@ export default {
     }
   },
   components: {
-    BlogCard
+    BlogCard,
+    HomeValueCard,
   },
   data() {
     return {
