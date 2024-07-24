@@ -1,7 +1,7 @@
 <template>
     <nav class="flex justify-between items-center py-5">
         <a class="z-30 text-3xl text-white font-semibold leading-none" href="/">
-            <img class="h-10 transition-opacity ease-in-out hover:opacity-50" src="../assets/images/metis-light-name.svg" alt="" width="auto">
+            <img class="h-10 transition-opacity ease-in-out hover:opacity-50" src="../assets/images/logo-white-exmp.svg" alt="" width="auto">
         </a>
         <div class="lg:hidden z-30">
             <button @click="toggleMenu" class="bg-white navbar-burger flex items-center py-2 px-3 text-primary hover:bg-white/50 rounded border border-blueGray-500 hover:border-blueGray-300">

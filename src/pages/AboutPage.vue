@@ -1,10 +1,10 @@
 <template>
-    <section class="relative border-b-2 bg-zinc-800">
-      <div class="hidden lg:block absolute inset-0 w-1/2 ml-auto bg-gray-50 z-0" style="z-index: -1"></div>
-      <div class="container px-0 mx-auto">
-          <Header :mode="mode" />
-      </div>
-  </section>
+    <section class="relative border-b-2 border-zinc-600 bg-zinc-800">
+            <div class="hidden lg:block absolute inset-0 w-1/2 ml-auto bg-gray-50 z-0" style="z-index: -1"></div>
+            <div class="container px-8 lg:px-12 mx-auto">
+                <Header :mode="mode" />
+            </div>
+        </section>
     <div>
       <AboutHero :mode="mode" />
       <AboutStory class="border-b-2 pb-6"/>

@@ -5,16 +5,16 @@
     >
       <div class="bg-black/80 relative py-24 lg:py-28 lg:pb-36 overflow-hidden">
         <div class="container px-8 mx-auto text-left">
-        <span class="inline-block sub text-white mb-4">Get Started</span>
-          <h2 class="mb-4 text-6xl md:text-12xl font-bold tracking-px-n leading-tight font-sans text-white">Work With Mike</h2>
+        <span data-aos="fade-right" data-aos-delay="200" class="inline-block sub text-white mb-4">Get Started</span>
+          <h2 data-aos="fade-right" data-aos-delay="400" class="mb-4 text-6xl md:text-12xl font-bold tracking-px-n leading-tight font-sans text-white">Work With Mike</h2>
     
-          <p class="hidden max-w-lg text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed">
+          <p data-aos="fade-right" data-aos-delay="600" class="max-w-lg text-white/90 md:mt-6 md:text-lg md:leading-relaxed">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore officia corporis quasi
             doloribus iure architecto quae voluptatum beatae excepturi dolores.
           </p>
     
           <div class="mt-4 sm:mt-8">
-            <a class="inline-block px-5 py-4 text-zinc-800 font-semibold tracking-tight bg-white hover:bg-zinc-300 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200" href="#">My Story</a>
+            <a data-aos="fade-right" data-aos-delay="800" class="inline-block px-5 py-4 text-zinc-800 font-semibold tracking-tight bg-white hover:bg-zinc-300 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200" href="/contact">Contact</a>
           </div>
         </div>
       </div>

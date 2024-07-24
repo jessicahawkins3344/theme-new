@@ -6,19 +6,19 @@
     -->
     
     <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 bg-white">
-      <div class="p-8 md:p-12 lg:px-16 lg:py-24 content-center">
+      <div class="py-24 px-12 pb-12 md:p-12 lg:px-16 lg:py-24 content-center">
         <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-          <h2 class="tmb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans">
+          <h2 class="tmb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans" data-aos="fade-right" data-aos-delay="200">
             The Best Choice in Finding Your New Home.
           </h2>
     
-          <p class="hidden text-gray-500 md:mt-4 md:block">
+          <p class="hidden text-gray-500 md:mt-4 md:block" data-aos="fade-right" data-aos-delay="400">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam
             sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
             quisque ut interdum tincidunt duis.
           </p>
     
-          <div class="mt-4 md:mt-8">
+          <div class="mt-4 md:mt-8" data-aos="fade-right" data-aos-delay="600">
             <a
               href="#"
               class="inline-block px-5 py-4 text-white font-semibold tracking-tight bg-zinc-800 hover:bg-zinc-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200"

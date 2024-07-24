@@ -1,13 +1,12 @@
 <template>
     <section class="py-20 px-4 bg-gray-50">
-        <div class="container px-8 lg:px-12 mx-auto">
+        <div class="container px-8 lg:px-4 mx-auto">
           <div class="relative pt-20 pb-16 mb-12 bg-cover bg-no-repeat rounded-4xl" style="background-image: url('https://s3.us-central-1.wasabisys.com/house-jet/assets/JHawkins/base-img-ca1.png');background-position: center center;">
             <div class="overlay rounded-4xl"></div>
             <div class="max-w-2xl mx-auto px-4 relative">
               <div class="text-center mb-6 z-30">
-                <span class="text-xs py-1 px-3 text-primary font-semibold bg-gray-50 rounded-4xl">
-                  <a class="text-primary hover:underline" href="#">CATEGORY</a>&nbsp;
-                  <span class="text-gray-900">24 Jan, 2020</span>
+                <span class="inline-block sub center text-white mb-4" data-aos="fade-up" data-aos-delay="200">
+                  <span class="text-white">24 Jan, 2020</span>
                 </span>
                 <h2 class="leading-snug text-3xl md:text-5xl my-2 text-white font-bold font-heading">Curabitur vestibulum odio maximus ipsum</h2>
               </div>

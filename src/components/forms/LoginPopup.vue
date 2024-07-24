@@ -7,7 +7,7 @@
           </svg>
         </button>
         <template v-if="!forgotPassword">
-          <h2 class="text-2xl font-bold mb-4">Login Form</h2>
+          <h2 class="text-2xl font-bold mb-4 font-sans">Login Form</h2>
           <form @submit.prevent="login">
             <div class="mb-4">
               <label for="email" class="block text-sm font-medium text-gray-700">Email:</label>
@@ -29,7 +29,7 @@
           <p class="mt-4 text-sm text-gray-600"><a href="#" @click.prevent="forgotPassword = true" class="text-primary hover:underline">Forgot password?</a></p>
         </template>
         <template v-else>
-          <h2 class="text-2xl font-bold mb-4">Forgot Password Form</h2>
+          <h2 class="text-2xl font-bold mb-4 font-sans">Forgot Password Form</h2>
           <!-- Implement your forgot password form here -->
           <form @submit.prevent="sendResetEmail">
             <div class="mb-4">

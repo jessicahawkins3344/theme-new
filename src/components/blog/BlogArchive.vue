@@ -1,10 +1,10 @@
 <template>
     <section class="py-20 px-4 border-b-2">
-        <div class="container px-8 lg:px-12 mx-auto">
+        <div class="container px-8 lg:px-4 mx-auto">
             <h2 data-aos="fade-down" data-aos-delay="400" v-if="isSingle" class="text-2xl lg:text-3xl mb-18 font-bold font-heading">More Articles</h2>
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-18">
               <div class="md:col-span-2 ...">
-                <div class="flex flex-wrap lg:pl-4">
+                <div class="flex flex-wrap lg:pl-2">
                     <BlogCard
                         v-for="(blog, index) in blogs"
                         :key="index"

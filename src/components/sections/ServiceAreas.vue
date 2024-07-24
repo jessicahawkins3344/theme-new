@@ -1,95 +1,51 @@
 <template>
     <section class="overflow-hidden">
         <div class="container px-8 mx-auto pt-24 text-center mb-16">
-            <span class="inline-block sub-dark center mb-4">Expertise</span>
-            <h2 class="mb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans">Servicing Areas</h2>
-            <p class="text-lg tracking-tight">Basko is the super simple way to connect over video of apps, downloads, or long meeting links.</p>
+            <span data-aos="fade-down" data-aos-delay="200" class="inline-block sub-dark center mb-4">Expertise</span>
+            <h2 data-aos="fade-down" data-aos-delay="400" class="mb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans">Servicing Areas</h2>
+            <p data-aos="fade-down" data-aos-delay="600" class="text-lg tracking-tight">Basko is the super simple way to connect over video of apps, downloads, or long meeting links.</p>
         </div>
         <div class="flex flex-wrap gap-0">
-            <div class="w-full md:w-1/3 p-2">
-                <a href="#" class="group relative block bg-black overflow-hidden">
-                    <img
-                    alt=""
-                    src="https://s3.us-central-1.wasabisys.com/house-jet/assets/JHawkins/base-img-ca1.png"
-                    class="absolute inset-0 h-full w-full object-cover opacity-35 transition-opacity group-hover:opacity-50"
-                    />
-                
-                    <div class="relative p-4 sm:p-6 lg:p-8">
-                        <span class="inline-block sub text-white mb-2">City</span>
-                
-                    <p class="text-6xl font-bold text-white sm:text-6xl font-sans tracking-tight">Nixa, MO</p>
-                
-                    <div class="mt-32 sm:mt-48 lg:mt-64">
-                        <div
-                        class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                        >
-                        <a class="inline-flex items-center max-w-max text-white hover:text-gray-200" href="#">
-                                <span class="mr-2 font-sans font-medium">Search Homes</span>
-                                <svg width="19" height="18" viewbox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11 3.75L16.25 9M16.25 9L11 14.25M16.25 9L2.75 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    </div>
-                </a>
-            </div>
-            <div class="w-full md:w-1/3 p-2">
-                <a href="#" class="group relative block bg-black overflow-hidden">
-                    <img
-                    alt=""
-                    src="https://s3.us-central-1.wasabisys.com/house-jet/assets/JHawkins/base-img-ca2.png"
-                    class="absolute inset-0 h-full w-full object-cover opacity-35 transition-opacity group-hover:opacity-50"
-                    />
-                
-                    <div class="relative p-4 sm:p-6 lg:p-8">
-                        <span class="inline-block sub text-white mb-2">Area</span>
-                
-                    <p class="text-6xl font-bold text-white sm:text-6xl font-sans tracking-tight">SW Springfield</p>
-                
-                    <div class="mt-32 sm:mt-48 lg:mt-64">
-                        <div
-                        class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                        >
-                        <a class="inline-flex items-center max-w-max text-white hover:text-gray-200" href="#">
-                                <span class="mr-2 font-sans font-medium">Search Homes</span>
-                                <svg width="19" height="18" viewbox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11 3.75L16.25 9M16.25 9L11 14.25M16.25 9L2.75 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    </div>
-                </a>
-            </div>
-            <div class="w-full md:w-1/3 p-2">
-                <a href="#" class="group relative block bg-black overflow-hidden">
-                    <img
-                    alt=""
-                    src="https://s3.us-central-1.wasabisys.com/house-jet/assets/JHawkins/base-img.png"
-                    class="absolute inset-0 h-full w-full object-cover opacity-35 transition-opacity group-hover:opacity-50"
-                    />
-                
-                    <div class="relative p-4 sm:p-6 lg:p-8">
-                        <span class="inline-block sub text-white mb-2">Neighborhood</span>
-                
-                    <p class="text-6xl font-bold text-white sm:text-6xl font-sans tracking-tight">Southern Hills</p>
-                
-                    <div class="mt-32 sm:mt-48 lg:mt-64">
-                        <div
-                        class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                        >
-                        <a class="inline-flex items-center max-w-max text-white hover:text-gray-200" href="#">
-                                <span class="mr-2 font-sans font-medium">Search Homes</span>
-                                <svg width="19" height="18" viewbox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11 3.75L16.25 9M16.25 9L11 14.25M16.25 9L2.75 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    </div>
-                </a>
-            </div>
+            <ServiceAreaCard data-aos="fade-up" data-aos-delay="800"
+                v-for="(area, index) in areas"
+                :key="index"
+                :image="area.image"
+                :type="area.type"
+                :title="area.title"
+            />
         </div>
     </section>
 </template>
+
+<script scoped>
+import ServiceAreaCard from '../elements/ServiceAreaCard.vue';
+
+export default {
+  name: 'ServiceAreas',
+  components: {
+    ServiceAreaCard,
+  },
+  data() {
+    return {
+      areas: [
+        {
+          image: 'https://s3.us-central-1.wasabisys.com/house-jet/assets/JHawkins/base-img-ca2.png',
+          type: 'city',
+          title: 'Nixa, MO'
+        },
+        {
+          image: 'https://s3.us-central-1.wasabisys.com/house-jet/assets/JHawkins/base-img-ca1.png',
+          type: 'area',
+          title: 'SW Springfield'
+        },
+        {
+          image: 'https://s3.us-central-1.wasabisys.com/house-jet/assets/JHawkins/base-img.png',
+          type: 'neighborhood',
+          title: 'Southen Hills'
+        }
+      ]
+    };
+  }
+}
+
+</script>
