@@ -1,6 +1,6 @@
 <template>
   <div data-aos="fade-down" data-aos-delay="600"  class="w-full pb-12 mb-12">
-    <div class="flex flex-wrap -m-0 xl:-m-12 mt-5 md:pr-6">
+    <div class="flex flex-wrap -m-0 ml-2 xl:-m-12 mt-5 md:pr-6">
       <div class="w-full md:w-1/2 lg:w-auto p-4 pl-0 xl:p-10">
         <div class="max-w-xl mx-auto">
           <img :src="image" alt="" class="rounded-xl object-cover h-80 w-96">

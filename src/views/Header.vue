@@ -14,7 +14,6 @@
         <DesktopNav class="relative" :navigationItems="navigationItems" :mode="mode" />
         <div class="hidden lg:block z-30">
             <a @click.prevent="showLoginPopup = true" class="mr-2 inline-block px-4 py-3 text-xs bg-white text-blueGray-700 hover:text-blueGray-400 font-semibold leading-none border border-blueGray-500 hover:border-blueGray-300 rounded" href="#">Log In</a>
-            <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-primary hover:brightness-120 text-white rounded" href="#">Sign Up</a>
             <LoginPopup :visible="showLoginPopup" @close="showLoginPopup = false" />
         </div>
     </nav>
@@ -40,6 +39,7 @@
         { name: 'Blog', href: '/blog' },
         { name: 'Team', href: '/team' },
         { name: 'About Us', href: '/about' },
+        { name: 'Landing', href: '/landing-page' },
         { name: 'Contact', href: '/contact' },
     ];
 

@@ -1,7 +1,7 @@
 <template>
     <div class="w-full xl:w-auto p-4 pt-0">
         <div class="xl:max-w-sm h-full background-new rounded-xl">
-            <div class="px-9 py-8 h-full rounded-xl shadow-xl overscroll-none bg-opacity-75 bg-zinc-800 hover:bg-opacity-35 transition-all ease-in-out">
+            <div class="px-9 py-8 h-full rounded-xl shadow-xl overscroll-none bg-opacity-70 bg-black hover:bg-opacity-55 transition-all ease-in-out">
                 <div class="flex flex-col justify-between h-full">
                 <div>
                     <v-icon name="bi-house-heart-fill" scale="2.5" class="transition ease-in-out mb-14 text-white"/>
@@ -22,9 +22,10 @@
 
 <style scoped>
 .background-new {
-  background-image: url("https://images.unsplash.com/photo-1568605114967-8130f3a36994?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHwzfHxob3VzZXxlbnwwfHx8fDE3MTQ0NDY4NTB8MA&ixlib=rb-4.0.3&q=85&w=1920");
+  background-image: url("https://s3.us-central-1.wasabisys.com/house-jet/assets/JHawkins/base-img-ca2.png");
   background-size: cover;
   background-color: rgba(37,40,41,0);
   background-repeat: no-repeat;
+  background-position: center;
 }
 </style>

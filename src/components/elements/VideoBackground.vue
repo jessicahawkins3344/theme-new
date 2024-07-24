@@ -7,7 +7,7 @@
         muted
         playsinline
       >
-        <source src="../../assets/images/backgrounds/background-video.mp4" type="video/mp4" />
+        <source src="../../assets/images/backgrounds/background-video2.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div class="absolute top-0 left-0 w-full h-full bg-black bg-black/60"></div>

@@ -1,8 +1,8 @@
 <template>
-    <div class="mb-16 p-1.5 xl:pl-7 inline-block md:max-w-xl w-full border-2 border-white rounded-3xl focus-within:border-indigo-700 transition-all ease-in-out">
+    <div class="mb-16 p-1.5 xl:pl-7 inline-block md:max-w-xl w-full border-2 border-white rounded-3xl focus-within:border-gray-400 transition-all ease-in-out">
         <div class="flex flex-wrap items-center">
             <div class="w-full xl:flex-1">                
-                <input class="p-3 xl:p-0 xl:pr-7 w-full text-gray-600 outline-none bg-transparent placeholder-white" id="headerInput3-1" type="text" placeholder="Find homes by city, zip, or county">              
+                <input class="py-6 p-4 md:p-3 xl:p-0 xl:pr-7 w-full text-gray-600 outline-none bg-transparent placeholder-white" id="headerInput3-1" type="text" placeholder="Find homes by city, zip, or county">              
             </div>
             <div class="w-full xl:w-auto">
                 <div class="block">                  
@@ -12,4 +12,5 @@
         </div>
     </div>
 </template>
-<style scoped></style>
+<style scoped>
+</style>

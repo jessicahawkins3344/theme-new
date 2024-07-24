@@ -6,10 +6,10 @@
         <VideoBackground class="-mt-20">
             <section class="relative pt-24 md:pb-28 lg:pb-0 overflow-hidden ">
                 <div class="relative z-10 container text-center mx-auto px-8">
-                    <div class="flex items-center max-w-xxl lg:px-32">
-                        <div class="w-full p-8">
+                    <div class="flex items-center px-0 md:max-w-xxl lg:px-32">
+                        <div class="w-full md:p-8">
                             <span class="inline-block sub center text-white mb-4" data-aos="fade-up" data-aos-delay="600">Springfield's Expert Agent</span>         
-                            <h1 class="mb-6 text-10xl text-white tracking-px-n leading-tight md:text-13xl font-sans font-semibold" data-aos="fade-up" data-aos-delay="800">Mike Oddo</h1>
+                            <h1 class="mb-6 text-8xl text-white tracking-px-n leading-tight md:text-13xl font-sans font-semibold" data-aos="fade-up" data-aos-delay="800">Mike Oddo</h1>
                             <p class="mb-8 text-white text-lg font-medium" data-aos="fade-up" data-aos-delay="1000">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.</p>
                             <SearchBar data-aos="fade-down" data-aos-delay="600"/>
                         </div>

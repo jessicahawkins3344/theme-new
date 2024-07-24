@@ -13,6 +13,7 @@
   <FeaturedVideo />
   <AsSeenOn />
   <CTA />
+  <CTAPopupForm />
 </template>
 
 <script setup>
@@ -20,6 +21,7 @@
   import Header from '@/views/Header.vue';
   import HomeHeroVideo from '@/components/home/HomeHeroVideo.vue';
 
+  import CTAPopupForm from '@/components/forms/CTAPopupForm.vue';
   import HomeHero from '@/components/home/HomeHero.vue';
   import HomeStats from '@/components/home/HomeStats.vue';
   import HomeAbout from '@/components/home/HomeAbout.vue';
