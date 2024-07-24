@@ -15,12 +15,19 @@
                     sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
                     quisque ut interdum tincidunt duis.
                 </p>
-                <div data-aos="fade-left" data-aos-delay="600" class="mt-4 md:mt-8">
+                <SocialIcons data-aos="fade-right" data-aos-delay="400"/>
+                <div data-aos="fade-left" data-aos-delay="600" class="gap-2 flex mt-4 md:mt-8 place-content-center">
+                    <a
+                        href="/contact"
+                        class="inline-block px-5 py-4 text-white font-semibold tracking-tight bg-zinc-800 border-2 border-zinc-800 hover:bg-zinc-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200"
+                        >
+                    Get In Touch
+                    </a>
                     <a
                         href="#"
-                        class="inline-block px-5 py-4 text-white font-semibold tracking-tight bg-zinc-800 hover:bg-zinc-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200"
+                        class="inline-block px-5 py-4 text-zinc-800 font-semibold tracking-tight border-2 border-zinc-800 hover:bg-zinc-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200 hover:text-white"
                         >
-                    Get Started Today
+                    Search Homes
                     </a>
                 </div>
             </div>
@@ -32,4 +39,8 @@
             />
     </section>
 </template>
+<script setup>
+import SocialIcons from '../elements/SocialIcons.vue';
+</script>
+
 <style scoped></style>

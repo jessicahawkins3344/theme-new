@@ -28,8 +28,8 @@
         </div>
         <swiper :slides-per-view="3" :space-between="20" :breakpoints="breakpoints" @swiper="onSwiper">
           <swiper-slide v-for="(testimonial, index) in testimonials" :key="index">
-            <div class="p-6 bg-zinc-800 hover:bg-zinc-500 rounded-lg transition duration-200 min-h-80 content-center">
-              <div class="flex flex-wrap -m-0.5 mb-6">
+            <div class="p-6 bg-zinc-800 hover:bg-zinc-500 rounded-lg transition duration-200 min-h-80 content-center" data-aos="fade-up" data-aos-delay="400">
+              <div class="flex flex-wrap -m-0.5 mb-6" >
                 <div class="w-auto p-0.5" v-for="star in 5" :key="star">
                   <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z" fill="#FFBB29"></path>
