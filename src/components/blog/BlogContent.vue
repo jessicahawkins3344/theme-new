@@ -5,10 +5,10 @@
             <div class="overlay rounded-4xl"></div>
             <div class="max-w-2xl mx-auto px-4 relative">
               <div class="text-center mb-6 z-30">
-                <span class="inline-block sub center text-white mb-4" data-aos="fade-up" data-aos-delay="200">
+                <span class="inline-block sub font-berlin center text-white mb-4" data-aos="fade-up" data-aos-delay="200">
                   <span class="text-white">24 Jan, 2020</span>
                 </span>
-                <h2 class="leading-snug text-3xl md:text-5xl my-2 text-white font-bold font-heading">Curabitur vestibulum odio maximus ipsum</h2>
+                <h2 class="leading-snug text-3xl md:text-5xl my-2 text-white font-calm">Curabitur vestibulum odio maximus ipsum</h2>
               </div>
               <div class="flex justify-center">
                 <img class="w-12 h-12 object-cover rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt="">

@@ -5,7 +5,7 @@
             <div class="w-full md:w-1/2 p-8">        
               <div class="md:max-w-lg">
                 <span class="inline-block sub text-white mb-4" data-aos="fade-up" data-aos-delay="600">Springfield's Expert Agent</span>         
-                <h1 class="mb-6 text-10xl text-white tracking-px-n leading-tight md:text-13xl font-sans font-semibold" data-aos="fade-up" data-aos-delay="800">Mike Oddo</h1>          
+                <h1 class="mb-6 text-10xl text-white tracking-px-n leading-tight md:text-13xl font-calm font-semibold" data-aos="fade-up" data-aos-delay="800">Mike Oddo</h1>          
                 <p class="mb-8 text-white text-opacity-70 font-medium md:max-w-md" data-aos="fade-up" data-aos-delay="1000">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.</p>          
                 <div class="mb-16 p-1.5 xl:pl-7 inline-block md:max-w-xl w-full border-2 border-white rounded-3xl focus-within:border-indigo-700 transition-all ease-in-out">            
                   <div class="flex flex-wrap items-center">              <div class="w-full xl:flex-1">                

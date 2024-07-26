@@ -3,8 +3,8 @@
         <div class="container mx-auto overflow-hidden bg-[url(https://s3.us-central-1.wasabisys.com/house-jet/assets/JHawkins/agents4.png)] bg-cover bg-top bg-no-repeat border border-slate-200 rounded-xl">
             <div class=" py-16 px-8 bg-black/50 ">
                 <div class="md:max-w-xl mx-auto text-center">
-                    <span data-aos="fade-right" data-aos-delay="200" class="inline-block sub center mb-4 text-white">Work With Us</span>
-                    <h2 data-aos="fade-right" data-aos-delay="400" class="mb-4 text-6xl md:text-8xl font-bold tracking-px-n leading-tight font-sans text-white">Join Our Team</h2>
+                    <span data-aos="fade-right" data-aos-delay="200" class="inline-block sub font-berlin center mb-4 text-white">Work With Us</span>
+                    <h2 data-aos="fade-right" data-aos-delay="400" class="mb-4 text-6xl md:text-8xl tracking-px-n leading-tight font-calm text-white">Join Our Team</h2>
                     <p data-aos="fade-right" data-aos-delay="600" class="max-w-lg text-white/90 md:mt-6 md:text-lg md:leading-relaxed">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore officia corporis quasi
                         doloribus iure architecto quae voluptatum beatae excepturi dolores.

@@ -25,7 +25,7 @@
                 <div class="relative w-full lg:w-1/2 px-4 py-6 lg:py-40 lg:pl-12">
                     <div class="flex flex-row flex-wrap justify-around mb-12">
                         <div class="w-1/2 lg:w-auto mb-12">
-                            <h5 class="mb-6 text-lg font-bold font-heading">Menu</h5>
+                            <h5 class="mb-6 text-lg font-berlin uppercase tracking-widest">Menu</h5>
                             <ul class="space-y-3">
                                 <li><a class="text-sm text-blueGray-600 hover:text-blueGray-500" href="#">First Link</a></li>
                                 <li><a class="text-sm text-blueGray-600 hover:text-blueGray-500" href="#">Second Link</a></li>
@@ -34,14 +34,14 @@
                             </ul>
                         </div>
                         <div class="w-1/2 lg:w-auto mb-12">
-                            <h5 class="mb-6 text-lg font-bold font-heading">Other</h5>
+                            <h5 class="mb-6 text-lg font-berlin uppercase tracking-widest">Other</h5>
                             <ul class="space-y-3">
                                 <li><a class="text-sm text-blueGray-600 hover:text-blueGray-500" href="/privacy-policy">Privacy Policy</a></li>
                                 <li><a class="text-sm text-blueGray-600 hover:text-blueGray-500" href="/terms-of-service">Terms of Service</a></li>
                             </ul>
                         </div>
                         <div class="w-full lg:w-auto mb-4">
-                            <h5 class="mb-6 text-lg font-bold font-heading">Location</h5>
+                            <h5 class="mb-6 text-lg font-berlin uppercase tracking-widest">Location</h5>
                             <div class="mb-4 leading-relaxed">
                                 <h3 class="text-sm text-blueGray-600">Address</h3>
                                 <p>123 Easy Street</p>

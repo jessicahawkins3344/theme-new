@@ -4,7 +4,7 @@
         <img class="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000" :src="image" alt="">
         <div class="absolute bottom-0 left-0 w-full p-2">
           <div class="bg-black bg-opacity-80 w-full py-4 px-5 rounded-lg" style="backdrop-filter: blur(3px);">
-            <h3 class="mb-1 text-lg text-white font-bold leading-snug">{{ name }}</h3>
+            <h3 class="mb-1 text-xl text-white font-bold tracking-wider font-calm">{{ name }}</h3>
             <p class="text-gray-400 font-medium">{{ title }}</p>
           </div>
         </div>

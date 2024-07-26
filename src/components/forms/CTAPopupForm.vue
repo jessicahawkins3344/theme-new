@@ -8,7 +8,7 @@
             </svg>
           </button>
           <span data-aos="fade-down" data-aos-delay="200" class="inline-block sub center text-center text-white mb-4 mt-4">Exclusive Listings</span>
-          <h2 class="text-8xl font-bold mb-4 font-sans uppercase text-white">Get VIP Access</h2>
+          <h2 class="text-8xl mb-4 font-calm uppercase text-white">Get VIP Access</h2>
           <form @submit.prevent="handleSubmit">
             <div class="mb-4">
               <input class="transition-all ease-in-out w-full p-4 text-xs font-semibold leading-none bg-gray-50 rounded outline-none focus:ring-2 ring-primary" type="text" placeholder="Name">
@@ -53,11 +53,10 @@
   
   <style scoped>
   .fade-scale-enter-active, .fade-scale-leave-active {
-    transition: opacity 0.5s, transform 0.5s;
-  }
-  .fade-scale-enter, .fade-scale-leave-to {
-    opacity: 0;
-    transform: scale(0.95);
-  }
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease;
+}
+.fade-scale-enter, .fade-scale-leave-to /* .fade-scale-leave-active in <2.1.8 */ {
+  opacity: 0;
+}
   </style>
   

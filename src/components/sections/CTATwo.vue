@@ -5,8 +5,8 @@
     >
       <div class="bg-black/80 relative py-24 lg:py-28 lg:pb-36 overflow-hidden">
         <div class="container px-8 mx-auto text-left">
-        <span data-aos="fade-right" data-aos-delay="200" class="inline-block sub text-white mb-4">Get Started</span>
-          <h2 data-aos="fade-right" data-aos-delay="400" class="mb-4 text-6xl md:text-12xl font-bold tracking-px-n leading-tight font-sans text-white">Work With Mike</h2>
+        <span data-aos="fade-right" data-aos-delay="200" class="inline-block sub font-berlin text-white mb-4">Get Started</span>
+          <h2 data-aos="fade-right" data-aos-delay="400" class="mb-4 text-6xl md:text-12xl tracking-px-n leading-tight font-calm text-white">Work With Mike</h2>
     
           <p data-aos="fade-right" data-aos-delay="600" class="max-w-lg text-white/90 md:mt-6 md:text-lg md:leading-relaxed">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore officia corporis quasi

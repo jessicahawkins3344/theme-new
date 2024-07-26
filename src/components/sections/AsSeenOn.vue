@@ -2,7 +2,7 @@
     <section class="py-18 overflow-hidden">
         <div class="container px-4 mx-auto">
             <div class="max-w-3xl text-center mx-auto mb-8">
-            <h2 class="mb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans">As Seen On</h2>
+            <h2 class="mb-4 text-6xl md:text-7xl tracking-px-n leading-tight font-calm">As Seen On</h2>
             </div>
             <div class="flex flex-wrap justify-center -m-8">
             <div class="w-auto p-8">

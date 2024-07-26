@@ -11,8 +11,8 @@
                 <div class="flex flex-wrap -mx-3">
                     <div class="align-middle w-full lg:w-1/2 px-3">
                         <div class="max-w-sm">
-                            <span data-aos="fade-right" data-aos-delay="0" class="inline-block sub-dark">Contact Us</span>
-                            <h2 data-aos="fade-right" data-aos-delay="200" class="mt-2 text-6xl font-bold font-sans leading-snug">We'd love to hear from you!</h2>
+                            <span data-aos="fade-right" data-aos-delay="0" class="inline-block sub-dark-right font-berlin">Contact Us</span>
+                            <h2 data-aos="fade-right" data-aos-delay="200" class="mt-2 text-6xl font-calm leading-snug">We'd love to hear from you!</h2>
                         </div>
                         <div data-aos="fade-right" data-aos-delay="400" class="mt-10 lg:mt-24">
                             <div class="mb-10 leading-relaxed">

@@ -1,8 +1,8 @@
 <template>
     <section class="overflow-hidden">
         <div class="container px-8 mx-auto pt-24 text-center mb-16">
-            <span data-aos="fade-down" data-aos-delay="200" class="inline-block sub-dark center mb-4">Expertise</span>
-            <h2 data-aos="fade-down" data-aos-delay="400" class="mb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans">Servicing Areas</h2>
+            <span data-aos="fade-down" data-aos-delay="200" class="inline-block sub-dark center mb-4 font-berlin">Expertise</span>
+            <h2 data-aos="fade-down" data-aos-delay="400" class="mb-4 text-6xl md:text-7xl tracking-px-n leading-tight font-calm">Servicing Areas</h2>
             <p data-aos="fade-down" data-aos-delay="600" class="text-lg tracking-tight">Basko is the super simple way to connect over video of apps, downloads, or long meeting links.</p>
         </div>
         <div class="flex flex-wrap gap-0">

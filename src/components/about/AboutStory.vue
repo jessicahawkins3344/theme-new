@@ -2,7 +2,7 @@
     <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 bg-white mt-6 mb-6">
         <div class="py-12 px-8 md:p-12 lg:px-16 lg:py-24 content-center">
             <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                <h2 data-aos="fade-left" data-aos-delay="200" class="mb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans">
+                <h2 data-aos="fade-left" data-aos-delay="200" class="mb-4 text-6xl md:text-7xl tracking-px-n leading-tight font-calm">
                     Get to Know Me
                 </h2>
                 <p data-aos="fade-left" data-aos-delay="400" class=" text-gray-500 md:mt-4">

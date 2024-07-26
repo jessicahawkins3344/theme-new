@@ -3,8 +3,8 @@
     <div class="relative overflow-hidden border-b-2">
         <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24">
             <div class="max-w-2xl text-center mx-auto">
-                <span data-aos="fade-down" data-aos-delay="200" class="inline-block sub-dark center mb-4">Featured Video</span>
-            <h1 class="mb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans">Behind The Scenes</h1>
+                <span data-aos="fade-down" data-aos-delay="200" class="inline-block sub-dark center mb-4 font-berlin">Featured Video</span>
+            <h1 class="mb-4 text-6xl md:text-7xl tracking-px-n leading-tight font-calm">Behind The Scenes</h1>
             </div>
 
             <div class="mt-10 relative max-w-5xl mx-auto">

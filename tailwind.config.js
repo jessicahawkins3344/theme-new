@@ -625,8 +625,8 @@ export default {
                         "tight": "-0.025em",
                         "normal": "0em",
                         "wide": "0.025em",
-                        "wider": "0.05em",
-                        "widest": "0.1em",
+                        "wider": "0.07em",
+                        "widest": "0.15em",
                         "px": "1px"
                     },
                     "lineHeight": {
@@ -639,6 +639,7 @@ export default {
                         "9": "2.25rem",
                         "10": "2.5rem",
                         "none": "1",
+                        'tighter': '1.15',
                         "tight": "1.25",
                         "snug": "1.375",
                         "normal": "1.5",
@@ -954,7 +955,9 @@ export default {
         "extend": {
             "fontFamily": {
                 "sans": "Gloock, serif",
-                "heading": "Gloock, serif"
+                "heading": "Gloock, serif",
+                calm: ['calm_loveregular', 'sans-serif'],
+                berlin: ['Berlin', 'serif'],
             }
         }
     },

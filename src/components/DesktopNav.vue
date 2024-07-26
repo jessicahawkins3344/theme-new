@@ -49,7 +49,7 @@
   };
   
   const modeClass = computed(() => {
-    return props.mode === 'light' ? 'text-sm text-white hover:text-blueGray-400' : 'text-sm text-blueGray-600 hover:text-blueGray-400';
+    return props.mode === 'light' ? 'text-sm uppercase tracking-widest text-white hover:text-blueGray-400 font-berlin' : 'text-sm text-blueGray-600 hover:text-blueGray-400 font-berlin';
   });
   </script>
   

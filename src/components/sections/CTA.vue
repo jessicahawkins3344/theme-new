@@ -8,7 +8,7 @@
     <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 bg-white">
       <div class="py-24 px-12 pb-12 md:p-12 lg:px-16 lg:py-24 content-center">
         <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-          <h2 class="tmb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans" data-aos="fade-right" data-aos-delay="200">
+          <h2 class="tmb-4 text-6xl md:text-7xl tracking-px-n leading-tight font-calm" data-aos="fade-right" data-aos-delay="200">
             The Best Choice in Finding Your New Home.
           </h2>
     

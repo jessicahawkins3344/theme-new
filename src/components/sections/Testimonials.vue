@@ -1,8 +1,8 @@
 <template>
     <section class="relative py-24 lg:py-28 lg:pb-36 overflow-hidden border-b-2">
       <div class="container px-8 mx-auto">
-        <span data-aos="fade-right" data-aos-delay="200" class="inline-block sub-dark mb-4">Testimonials</span>
-        <h2 data-aos="fade-right" data-aos-delay="400" class="mb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans">What our clients say</h2>
+        <span data-aos="fade-right" data-aos-delay="200" class="inline-block sub-dark-right mb-4 font-berlin">Testimonials</span>
+        <h2 data-aos="fade-right" data-aos-delay="400" class="mb-4 text-6xl md:text-7xl tracking-px-n leading-tight font-calm">What our clients say</h2>
         <div class="flex flex-wrap items-center justify-between -m-2 mb-16">
           <div class="w-auto p-2">
             <p data-aos="fade-right" data-aos-delay="600" class="max-w-xl text-lg tracking-tight">Basko is the super simple way to connect over video of apps, downloads, or long meeting links.</p>
@@ -39,7 +39,7 @@
               <p class="mb-6 text-white tracking-tight text-lg">“{{ testimonial.text }}”</p>
               <div class="flex flex-wrap items-center -m-1.5">
                 <div class="w-auto p-1.5">
-                  <h3 class="text-white font-semibold tracking-tight font-sans">{{ testimonial.name }}</h3>
+                  <h3 class="text-white font-semibold tracking-tight font-calm">{{ testimonial.name }}</h3>
                   <span class="text-gray-400 text-sm tracking-tight">{{ testimonial.location }}</span>
                 </div>
               </div>

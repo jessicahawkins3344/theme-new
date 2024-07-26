@@ -10,8 +10,8 @@
             <div class="container px-8 lg:px-12 mx-auto py-20 content-center">
                 <div class="flex flex-wrap mx-auto py-20">
                     <div class="content-center">
-                        <h3 class="leading-snug text-16xl text-white font-light">404</h3>
-                        <h2 class="-mt-2 text-4xl font-bold font-sans text-white">Uh Oh, looks like we couldn't find where you wanted to go!</h2>
+                        <h3 class="leading-snug text-16xl text-white font-light font-berlin">404</h3>
+                        <h2 class="-mt-2 text-4xl font-calm text-white">Uh Oh, looks like we couldn't find where you wanted to go!</h2>
                         <a class="mt-4 inline-block px-5 py-4 text-zinc-800 font-semibold tracking-tight bg-white hover:bg-zinc-300 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200" href="/">Go Home</a>
                     </div>
                 </div>

@@ -10,8 +10,8 @@
         <div class="flex flex-col justify-around h-full">
           <div class="w-auto mb-9">
             <div class="">
-                <span class="inline-block sub-dark mb-4">{{ category }}</span>
-              <h4 class="font-heading mb-4 text-3xl font-semibold leading-tight"><a href="#" class="hover:opacity-40">{{ title }}</a></h4>
+                <span class="inline-block sub-dark mb-4 font-berlin">{{ category }}</span>
+              <h4 class="font-calm mb-4 text-3xl font-semibold leading-tight"><a href="#" class="hover:opacity-40">{{ title }}</a></h4>
               <p class="text-lg text-gray-500 font-medium">
                 {{ excerpt }}
               </p>

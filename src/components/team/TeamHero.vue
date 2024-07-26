@@ -4,8 +4,8 @@
   >
     <div class="h-90 md:h-screen bg-black/50 relative py-24 lg:py-28 lg:pb-36 overflow-hidden content-center">
       <div class="container px-8 mx-auto text-center">
-          <span class="inline-block sub center text-white mb-4" data-aos="fade-up" data-aos-delay="200">Meet The Team</span>
-          <h2 class="mb-4 text-8xl md:text-12xl font-bold tracking-px-n leading-tight font-sans text-white" data-aos="fade-up" data-aos-delay="400">Our Team of Real Estate Experts</h2>
+          <span class="inline-block sub font-berlin center text-white mb-4" data-aos="fade-up" data-aos-delay="200">Meet The Team</span>
+          <h2 class="mb-4 text-8xl md:text-12xl leading-tight font-calm text-white" data-aos="fade-up" data-aos-delay="400">Our Team of Real Estate Experts</h2>
   
           <p class="max-w-lg text-white/90 md:mt-6 md:text-lg md:leading-relaxed text-center mx-auto" data-aos="fade-up" data-aos-delay="600">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore officia corporis quasi

@@ -10,7 +10,7 @@
                 <div class="flex flex-col justify-center md:h-screen">
                     <div class="md:max-w-xxl pb-16 px-16 md:py-16 lg:px-16">
                         <span class="inline-block sub text-white mb-4" data-aos="fade-right" data-aos-delay="200">About Me</span>
-                        <h2 class="mb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans text-white" data-aos="fade-right" data-aos-delay="400">Who Is Mike Oddo?</h2>
+                        <h2 class="mb-4 text-6xl md:text-7xl tracking-wide leading-tight font-calm text-white" data-aos="fade-right" data-aos-delay="400">Who Is Mike Oddo?</h2>
                         <p class="mb-10 text-gray-300 tracking-tight text-lg" data-aos="fade-right" data-aos-delay="600">He has an extensive client base featuring those who seek the luxury lifestyle including titans of industry, celebrities, the royal families, major lending institutions and foreign investors. As a prominent figure in the luxury real estate market, Aaron has received International acclaim for record setting sales across Los Angeles and Southern California.</p>
                         <div class="flex -m-1.5 mb-5 flex-grow">
                             <div class="p-1.5 w-full">

@@ -10,8 +10,8 @@
                 </div>
                 <div class="order-first md:order-last w-full md:w-1/2 xl:w-1/3 p-8 px-6 self-center">
                     <div class="md:max-w-sm">
-                        <span class="inline-block sub-dark mb-4" data-aos="fade-right" data-aos-delay="200">Get Started</span>
-                        <h2 class="mb-4 text-6xl md:text-7xl font-bold tracking-px-n leading-tight font-sans" data-aos="fade-right" data-aos-delay="400">Finding your new home just got easier.</h2>
+                        <span class="inline-block sub-dark mb-4 font-berlin" data-aos="fade-right" data-aos-delay="200">Get Started</span>
+                        <h2 class="mb-4 text-6xl md:text-7xl tracking-px-n leading-tight font-calm" data-aos="fade-right" data-aos-delay="400">Finding your new home just got easier.</h2>
                         <p class="text-gray-900 font-medium tracking-tight text-lg" data-aos="fade-right" data-aos-delay="600">Explore Resources for Both Buyers & Sellers.</p>
                     </div>
                 </div>

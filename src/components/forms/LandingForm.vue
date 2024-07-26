@@ -1,8 +1,8 @@
 <template>
     <div class="max-w-2xl mx-auto text-center px-8 py-16 rounded bg-gray-50">
         <div class="max-w-md mb-8 mx-auto">
-            <span class="inline-block sub-dark center">{{ subheading }}</span>
-            <h1 class="mt-2 text-8xl font-bold font-heading leading-tight">{{ headline }}</h1>
+            <span class="inline-block sub-dark center font-berlin">{{ subheading }}</span>
+            <h1 class="mt-2 text-8xl font-calm leading-tight">{{ headline }}</h1>
             <p class="mt-2">
                 {{ description }}
             </p>
