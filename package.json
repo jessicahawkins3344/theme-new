@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "oh-vue-icons": "^1.0.0-rc3",
     "pinia": "^2.1.7",
     "preline": "^2.3.0",
     "swiper": "^11.1.6",

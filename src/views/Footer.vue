@@ -10,7 +10,7 @@
                         <p class="mb-4 text-base text-blueGray-800 text-center lg:text-left">Subscribe and get access to new listings first.</p>
                         <div class="flex flex-wrap lg:flex-nowrap items-center">
                             <div class="flex w-full lg:w-3/4 mb-3 lg:mb-0 rounded">
-                                <div class="relative"><v-icon name="bi-envelope" scale="1.2" class="flex ml-4 absolute top-0 bottom-0 text-primary my-auto inline-block transition ease-in-out "/>
+                                <div class="relative"><svg width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" class="flex ml-4 absolute top-0 bottom-0 text-primary my-auto inline-block transition ease-in-out text-md"><path fill-rule="evenodd" d="m1 3.5.5-.5h13l.5.5v9l-.5.5h-13l-.5-.5zm1 1.035V12h12V4.536L8.31 8.9H7.7zM13.03 4H2.97L8 7.869z" clip-rule="evenodd"></path></svg>
                                 </div>
                                 <input class="w-full rounded py-4 pl-12 text-xs text-blueGray-600 bg-gray-50 outline-none transition-all ease-in-out focus:ring-2 focus:ring-primary focus:ring-inset" type="text" placeholder="Type your e-mail">
                             </div>
