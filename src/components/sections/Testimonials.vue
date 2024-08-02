@@ -10,7 +10,7 @@
           <div class="w-auto p-2">
             <div class="flex flex-wrap -m-1">
               <div class="w-auto p-1">
-                <a class="flex items-center justify-center w-10 h-10 bg-zinc-800 hover:bg-zinc-500 rounded-full transition duration-200" @click="prevSlide">
+                <a class="flex items-center justify-center w-10 h-10 bg-primary hover:bg-zinc-500 rounded-full transition duration-200" @click="prevSlide">
                   <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.41242 1.44434L1.85686 6.99989M1.85686 6.99989L7.41242 12.5554M1.85686 6.99989L16.1426 6.99989" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                   </svg>
@@ -28,7 +28,7 @@
         </div>
         <swiper :slides-per-view="3" :space-between="20" :breakpoints="breakpoints" @swiper="onSwiper">
           <swiper-slide v-for="(testimonial, index) in testimonials" :key="index">
-            <div class="p-6 bg-zinc-800 hover:bg-zinc-500 rounded-lg transition duration-200 min-h-80 content-center" data-aos="fade-up" data-aos-delay="400">
+            <div class="p-6 bg-primary hover:bg-zinc-500 rounded-lg transition duration-200 min-h-80 content-center" data-aos="fade-up" data-aos-delay="400">
               <div class="flex flex-wrap -m-0.5 mb-6" >
                 <div class="w-auto p-0.5" v-for="star in 5" :key="star">
                   <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">

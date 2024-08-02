@@ -14,7 +14,7 @@
                                 </div>
                                 <input class="w-full rounded py-4 pl-12 text-xs text-blueGray-600 bg-gray-50 outline-none transition-all ease-in-out focus:ring-2 focus:ring-primary focus:ring-inset" type="text" placeholder="Type your e-mail">
                             </div>
-                            <button class="w-full lg:w-auto py-4 px-8 lg:ml-6 text-xs text-white font-semibold leading-none bg-primary hover:brightness-120 rounded" type="submit">Subscribe</button>
+                            <button class="w-full lg:w-auto py-4 px-8 lg:ml-6 text-xs text-white font-semibold leading-none bg-primary hover:opacity-80 rounded" type="submit">Subscribe</button>
                         </div> 
                     </div>
                     <div class="hidden lg:block">

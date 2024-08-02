@@ -13,7 +13,7 @@
             </p>
     
             <div class="mt-4 sm:mt-8">
-                <a class="inline-block px-8 py-4 text-zinc-800 font-semibold tracking-tight bg-white hover:bg-zinc-300 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200" href="/contact" data-aos="fade-down" data-aos-delay="600">Contact</a>
+                <a class="inline-block px-8 py-4 text-primary font-semibold tracking-tight bg-white hover:bg-zinc-300 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200" href="/contact" data-aos="fade-down" data-aos-delay="600">Contact</a>
             </div>
         </div>
       </div>

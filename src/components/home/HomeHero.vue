@@ -1,5 +1,5 @@
 <template>
-    <section class="relative pt-24 md:pb-28 lg:pb-0 overflow-hidden bg-zinc-800">    
+    <section class="relative pt-24 md:pb-28 lg:pb-0 overflow-hidden bg-primary">    
         <div class="relative z-10 container mx-auto px-8">    
           <div class="flex flex-wrap items-center -m-8">      
             <div class="w-full md:w-1/2 p-8">        

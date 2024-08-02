@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-zinc-800 overflow-hidden">
+    <section class="bg-primary overflow-hidden">
         <div class="flex flex-wrap -m-4 lg:-m-14">
             <div class="w-full md:w-5/12 lg:p-10">
                 <div class="h-full overflow-hidden">
@@ -14,7 +14,7 @@
                         <p class="mb-10 text-gray-300 tracking-tight text-lg" data-aos="fade-right" data-aos-delay="600">He has an extensive client base featuring those who seek the luxury lifestyle including titans of industry, celebrities, the royal families, major lending institutions and foreign investors. As a prominent figure in the luxury real estate market, Aaron has received International acclaim for record setting sales across Los Angeles and Southern California.</p>
                         <div class="flex -m-1.5 mb-5 flex-grow">
                             <div class="p-1.5 w-full">
-                                <a class="inline-block px-5 py-4 text-zinc-800 font-semibold tracking-tight bg-white hover:bg-zinc-300 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200" href="/about" data-aos="fade-right" data-aos-delay="800">My Story</a>
+                                <a class="inline-block px-5 py-4 text-primary font-semibold tracking-tight bg-white hover:bg-zinc-300 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200" href="/about" data-aos="fade-right" data-aos-delay="800">My Story</a>
                             </div>
                         </div>
                     </div>

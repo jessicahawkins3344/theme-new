@@ -21,7 +21,7 @@
           <div class="mt-4 md:mt-8" data-aos="fade-right" data-aos-delay="600">
             <a
               href="#"
-              class="inline-block px-5 py-4 text-white font-semibold tracking-tight bg-zinc-800 hover:bg-zinc-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200"
+              class="inline-block px-5 py-4 text-white font-semibold tracking-tight bg-primary hover:opacity-80 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200"
             >
               Get Started Today
             </a>

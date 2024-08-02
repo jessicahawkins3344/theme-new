@@ -21,7 +21,7 @@
                     class="mt-1 transition-all ease-in-out w-full p-4 text-xs font-semibold leading-none bg-gray-50 rounded outline-none focus:ring-2 ring-primary">
             </div>
   
-            <button type="submit" class="rounded text-sm w-full bg-zinc-800 text-white py-4 px-4 rounded-md hover:bg-zinc-600  transition duration-200">
+            <button type="submit" class="rounded text-sm w-full bg-primary text-white py-4 px-4 rounded-md hover:opacity-80  transition duration-200">
               Login
             </button>
           </form>
@@ -38,7 +38,7 @@
                     class="mt-1 transition-all ease-in-out w-full p-4 text-xs font-semibold leading-none bg-gray-50 rounded outline-none focus:ring-2 ring-primary">
             </div>
   
-            <button type="submit" class="rounded text-sm w-full bg-zinc-800 text-white py-4 px-4 rounded-md hover:bg-zinc-600 transition duration-200">
+            <button type="submit" class="rounded text-sm w-full bg-primary text-white py-4 px-4 rounded-md hover:opacity-80 transition duration-200">
               Send Reset Email
             </button>
           </form>

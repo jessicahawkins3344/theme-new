@@ -1,5 +1,5 @@
 <template>
-    <section class="relative border-b-2 border-zinc-500 bg-zinc-800">
+    <section class="relative border-b-2 border-zinc-500 bg-primary">
         <div class="hidden lg:block absolute inset-0 w-1/2 ml-auto bg-gray-50 z-0" style="z-index: -1"></div>
         <div class="container px-8 lg:px-12 mx-auto">
             <Header :mode="mode" />

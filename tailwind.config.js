@@ -958,7 +958,11 @@ export default {
                 "heading": "Gloock, serif",
                 calm: ['calm_loveregular', 'sans-serif'],
                 berlin: ['Berlin', 'serif'],
-            }
+            },
+            colors: {
+                primary: 'var(--color-primary)',
+                secondary: 'var(--color-secondary)',
+            },
         }
     },
     "content": [

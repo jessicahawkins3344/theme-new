@@ -19,13 +19,13 @@
                 <div data-aos="fade-left" data-aos-delay="600" class="gap-2 flex mt-4 md:mt-8 place-content-center">
                     <a
                         href="/contact"
-                        class="inline-block px-5 py-4 text-white font-semibold tracking-tight bg-zinc-800 border-2 border-zinc-800 hover:bg-zinc-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200"
+                        class="inline-block px-5 py-4 text-white font-semibold tracking-tight bg-primary border-2 border-zinc-800 hover:opacity-80 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200"
                         >
                     Get In Touch
                     </a>
                     <a
                         href="#"
-                        class="inline-block px-5 py-4 text-zinc-800 font-semibold tracking-tight border-2 border-zinc-800 hover:bg-zinc-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200 hover:text-white"
+                        class="inline-block px-5 py-4 text-primary font-semibold tracking-tight border-2 border-zinc-800 hover:opacity-80 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200 hover:text-white"
                         >
                     Search Homes
                     </a>

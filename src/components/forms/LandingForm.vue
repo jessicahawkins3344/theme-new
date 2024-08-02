@@ -25,7 +25,7 @@
                     <input class="mr-1" type="checkbox" name="terms" value="1">
                     <span class="text-sm font-semibold">I agree to terms and conditions.</span>
                     </label>
-                    <button class="py-4 px-8 text-sm text-white font-semibold leading-none bg-zinc-800 hover:bg-zinc-500 rounded" type="submit">Submit</button>
+                    <button class="py-4 px-8 text-sm text-white font-semibold leading-none bg-primary hover:bg-zinc-500 rounded" type="submit">Submit</button>
                 </div>
             </form>
         </div>

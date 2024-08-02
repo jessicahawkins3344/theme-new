@@ -1,7 +1,7 @@
 <template>
     <transition name="fade-scale">
       <div v-if="visible" class="z-40 fixed inset-0 flex items-center justify-center bg-black/55" >
-        <div class="bg-zinc-800 border-2 border-white text-center mx-4 md:mx-0 p-12 rounded-lg shadow-lg w-full max-w-xl relative drop-shadow-xl" data-aos="zoom-in" data-aos-duration="500">
+        <div class="bg-primary border-2 border-white text-center mx-4 md:mx-0 p-12 rounded-lg shadow-lg w-full max-w-xl relative drop-shadow-xl" data-aos="zoom-in" data-aos-duration="500">
           <button @click="closePopup" class="absolute top-0 right-0 mt-4 mr-4 text-white hover:text-gray-900 focus:outline-none">
             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -21,7 +21,7 @@
                 <input class="mr-1" type="checkbox" name="terms" value="1">
                 <span class="text-sm font-semibold text-white">I agree to terms and conditions.</span>
               </label>
-              <button class="inline-block border-2 px-10 py-4 text-white font-semibold tracking-tight bg-zinc-800 hover:bg-white hover:text-zinc-800 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200" type="submit">Submit</button>
+              <button class="inline-block border-2 px-10 py-4 text-white font-semibold tracking-tight bg-primary hover:bg-white hover:text-primary rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200" type="submit">Submit</button>
             </div>
           </form>
         </div>
